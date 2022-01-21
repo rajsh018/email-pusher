@@ -5,7 +5,7 @@ name: Emailer-demo
 on:
   push:
     branches:
-      - main
+      - master
 #on:
 #  push:
 #    # Sequence of patterns matched against refs/tags
@@ -37,5 +37,3 @@ jobs:
 #          convert_markdown: true
           to: ${{secrets.USER_EMAILS}}
           from: Rajan Shukla
-          
-
