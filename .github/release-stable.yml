@@ -5,7 +5,7 @@ name: Emailer-demo
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     name: Update Release
